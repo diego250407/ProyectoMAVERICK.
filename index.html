@@ -1,0 +1,571 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto MAVERICK - Universidad Mariana</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  
+  <div class="intro" id="intro">
+    <div class="intro-content">
+      <div class="intro-logos">
+        <img src="universidad.png" alt="Logo Universidad Mariana" class="logo-universidad">
+        <img src="mecatronica.png" alt="Logo Mecatrónica" class="logo-mecatronica">
+      </div>
+      <div class="intro-text">
+        <h1>UNIVERSIDAD MARIANA</h1>
+        <h2>INGENIERÍA MECATRÓNICA</h2>
+        <h3>IX FERIA DE PROYECTOS</h3>
+      </div>
+      <div class="loading-bar">
+        <div class="loading-progress"></div>
+      </div>
+    </div>
+  </div>
+
+  
+  <nav class="main-nav" id="mainNav">
+    <div class="container">
+      <div class="nav-content">
+        <div class="nav-logo">
+          <span>MAVERICK</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#descripcion">Proyecto</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#bloopers">Bloopers</a></li>
+           <li><a href="#dinamica">Dinámica</a></li>
+          <li><a href="#resistencia">Resistencia</a></li>
+          <li><a href="#agradecimientos">Agradecimientos</a></li>
+          <li><a href="#GraciasprofeGabi">Profe Gabi</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <main class="main-content">
+    
+    <header class="main-header">
+      <div class="container">
+        <div class="project-header">
+          <div class="project-image">
+            <img src="ssc.png" alt="Imagen del proyecto MAVERICK" class="imagen">
+          </div>
+          <div class="project-info">
+            <h1 class="project-title">Proyecto: <span class="highlight">MAVERICK</span></h1>
+            <h2 class="project-subtitle">Vehículo Robótico de Control Remoto</h2>
+            <div class="project-badges">
+              <span class="badge">ESP32</span>
+              <span class="badge">IoT</span>
+              <span class="badge">Robótica</span>
+              <span class="badge">Web Control</span>
+            </div>
+            <div class="team-section">
+              <h3 class="team-title">Equipo de Desarrollo</h3>
+              <div class="team-grid">
+                <div class="team-member">
+                  <i class="fas fa-user"></i>
+                  <span>Joan Sebastian Benavides Tobar</span>
+                </div>
+                <div class="team-member">
+                  <i class="fas fa-user"></i>
+                  <span>Oscar David Benavides Vallejos</span>
+                </div>
+                <div class="team-member">
+                  <i class="fas fa-user"></i>
+                  <span>Jonathan Alejandro Coral Serna</span>
+                </div>
+                <div class="team-member">
+                  <i class="fas fa-user"></i>
+                  <span>Diego German Lopez Montalvo</span>
+                </div>
+                <div class="team-member">
+                  <i class="fas fa-user"></i>
+                  <span>Felipe Alejandro Mora Diaz</span>
+                </div>
+                <div class="team-member">
+                  <i class="fas fa-user"></i>
+                  <span>Joseth Norbey Silva Diaz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <section class="section" id="descripcion">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Descripción del Proyecto</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content">
+          <div class="description-grid">
+            <div class="description-card">
+              <div class="card-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3>Vehículo Robótico</h3>
+              <p>Diseño e implementación de un vehículo robótico a control remoto con transmisión en vivo mediante ESP32-CAM.</p>
+            </div>
+            <div class="description-card">
+              <div class="card-icon">
+                <i class="fas fa-camera"></i>
+              </div>
+              <h3>Video en Tiempo Real</h3>
+              <p>Transmisión de video en tiempo real para control y navegación remota del vehículo.</p>
+            </div>
+            <div class="description-card">
+              <div class="card-icon">
+                <i class="fas fa-microchip"></i>
+              </div>
+              <h3>Tecnologías Integradas</h3>
+              <p>Combinación de electrónica, control, programación y diseño mecánico en un solo sistema.</p>
+            </div>
+          </div>
+          <div class="features-list">
+            <h3>Características Principales</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Control web remoto</li>
+              <li><i class="fas fa-check"></i> Transmisión de video en vivo</li>
+              <li><i class="fas fa-check"></i> Sensor ultrasónico anti-colisiones</li>
+              <li><i class="fas fa-check"></i> Sistema de iluminación LED</li>
+              <li><i class="fas fa-check"></i> Buzzer integrado</li>
+              <li><i class="fas fa-check"></i> Vehículo eléctrico eco-amigable</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="section process-section" id="proceso">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Proceso de Desarrollo</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Conoce las etapas de implementación de nuestro proyecto</p>
+        </div>
+        
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-number">01</div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Pruebas Electrónicas</h3>
+                <span class="timeline-date">Fase Inicial</span>
+              </div>
+              <div class="timeline-body">
+                <p>Montaje y pruebas del circuito con LEDs, motores, puente H, servos y sensores.</p>
+                <div class="media-gallery">
+                  <div class="media-item">
+                    <img src="prueba1.jpg" alt="Prueba electrónica 1">
+                    <p>Previsualización del circuito impreso</p>
+                  </div>
+                  <div class="media-item">
+                    <img src="prueba2.jpg" alt="Prueba electrónica 2">
+                    <p>Proceso de impresión del circuito</p>
+                  </div>
+                  <div class="media-item">
+                    <img src="ju.jpg" alt="Componentes soldados">
+                    <p>Componentes finales soldados</p>
+                  </div>
+                  <div class="media-item">
+                    <img src="jl.png" alt="Componentes soldados">
+                    <p>PCB final</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-number">02</div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Montaje Mecánico</h3>
+                <span class="timeline-date">Fase de Integración</span>
+              </div>
+              <div class="timeline-body">
+                <p>Adaptación de carrito de juguete con barras de acero y piezas 3D diseñadas en SolidWorks.</p>
+                <div class="media-gallery">
+                  <div class="media-item"><img src="antesydespues.jpg" alt="Antes y después"><p>Transformación del vehículo</p></div>
+                  <div class="media-item"><img src="proceso1.jpg" alt="Montaje estructura"><p>Montaje de la estructura</p></div>
+                  <div class="media-item"><img src="impresion3d.jpg" alt="Impresión 3D"><p>Piezas 3D personalizadas</p></div>
+                  <div class="media-item"><img src="hola.jpg" alt="Montaje estructura"><p>Montaje en la estructura</p></div>
+                  <div class="media-item"><img src="GG.jpg" alt="Pruebas finales"><p>Pruebas finales</p></div>
+                  <div class="media-item"><img src="G.png" alt="Soldadura de la estructura"><p>Soldadura de la estructura</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-number">03</div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Desarrollo de Software</h3>
+                <span class="timeline-date">Fase de Programación</span>
+              </div>
+              <div class="timeline-body">
+                <p>Programación del ESP32 y ESP-CAM usando Arduino IDE y desarrollo de interfaz web con HTML/CSS/JavaScript.</p>
+                <div class="media-gallery">
+                  <div class="media-item"><img src="parte3.png" alt="Código fuente"><p>Interfaz del código fuente</p></div>
+                  <div class="media-item"><img src="programacion1.png" alt="Programación"><p>Proceso de desarrollo</p></div>
+                  <div class="media-item"><img src="pufj.png" alt="Interfaz final"><p>Interfaz web final</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section bloopers-section" id="bloopers">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Momento Bloopers</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Los momentos más divertidos durante el desarrollo del proyecto</p>
+        </div>
+
+        <div class="bloopers-container">
+          <div class="blooper-video">
+            <video controls muted loop playsinline class="project-video">
+              <source src="frutas.mp4" type="video/mp4">
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </div>
+          
+          <div class="bloopers-grid">
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="bloopers1.jpg" alt="Descansemos 5 minutos">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">Descansemos 5 minutos</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="b.png" alt="La ING">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">La ING</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="j1.jpeg" alt="Blooper">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">Trabajo en equipo</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="bloopers3.jpg" alt="Hora de dormir">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">Hora de dormir</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="bloopers6.png" alt="Se borro el codigo">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">Se borró el código</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="bloopers7.png" alt="Pausas pro-activas">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">Pausas pro-activas</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="blooper-item">
+              <div class="blooper-image">
+                <img src="peny..jpg" alt="Todos flotaran dijo el Pennywise">
+                <div class="blooper-overlay">
+                  <span class="blooper-text">Todos flotarán dijo el Pennywise</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="dinamica">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Dinámica</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content">
+          <p class="section-subtitle">
+          Tenemos un motor de 12v que pose unos RPM entre 7000 y 10000 vueltas por segundo en su capacidad máxima, en este caso como utilizamos una fuente de 7.4V a unos 4.8A por lo cual el motor trabaja a unos 5000 a 7500 RPM.</p>
+          <p>Para poder trasmitir la energía de movimiento hacia las ruedas fue necesario de implementar una caja reductora, la cual poseía 2 cambios o 2 relaciones de engranajes, uno el cual le brinda mayor velocidad, y el otro por el contrario le brinda mayor torque, para la relación de velocidad podíamos observar que podía llegar a alcanzar los 25 a 35 RPM a unos 0.3Nm , en cambio en la relación de fuerza obteníamos unos 15 a 20 RPM con uno 0.6Nm, también contábamos con planetarios internos, los cuales evitan que el eje sea fijo, mas en casos de giro, ya que al realizar un cambio de dirección lateral, el desplazamiento de la rueda interna será menor que el desplazamiento que tendrá la rueda externa, esto quiere decir que durante un giro, la rueda interna girara a una menor velocidad a comparación de la rueda externa.</p>
+          <p>Para la dirección se utiliza un servo de 5Lb de capacidad, en la posición de las llantas frontales podemos observar que tiene un camber negativo de 3 a 5 grados aproximadamente, y un caster positivo de 6 a 8 grados, y una divergencia de 5 grados, esto nos da estabilidad, además un buen funcionamiento de ataque de los amortiguadores.</p>
+          <p>Para el sistema de amortiguación, poseemos 4 amortiguadores de una capacidad de 2.5k individualmente, y el peso del vehículo es de 4.6k, así que por cada amortiguador en su estado de reposo soporta 1.15k, ahora teniendo en cuenta que la zona de mayor peso es en la parte trasera por la ubicación de la fuente de energía, fue necesario de posicionar los amortiguadores con un caster positivo de 35 grados para que tenga la capacidad de amortiguar impactos durante el movimiento, y brindar estabilidad con el centro de gravedad ya que este mismo se ubica en esta zona trasera del vehículo y siempre es variable durante el desplazamiento.</p>
+          
+          
+          <div class="dinamica-gallery" style="margin-top: 3rem;">
+            <h3 style="text-align: center; margin-bottom: 2rem; color: var(--primary);">Componentes de la Dinámica</h3>
+            <div class="media-gallery">
+              <div class="media-item">
+                <img src="dinamica1.jpg" alt="Componente dinámico 1">
+                <p>Camber</p>
+              </div>
+              <div class="media-item">
+                <img src="dinamica2.jpg" alt="Componente dinámico 2">
+                <p>Caster</p>
+              </div>
+              <div class="media-item">
+                <img src="dinamica3.jpg" alt="Componente dinámico 3">
+                <p>Caster parte trasera </p>
+              </div>
+              <div class="media-item">
+                <img src="dinamica4.jpg" alt="Componente dinámico 4">
+                <p>Divergencia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="resistencia">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Resistencia de materiales</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content">
+          <h3>1. Diseño Mecánico y Modelado</h3>
+          <p>Planos CAD, dibujos, croquis.</p>
+          
+          
+          <div class="resistencia-gallery" style="margin: 2rem 0;">
+            <div class="media-gallery">
+              <div class="media-item">
+                <img src="resistencia1.jpg" alt="Diseño mecánico 1">
+                <p>Modelado CAD</p>
+              </div>
+              <div class="media-item">
+                <img src="resistencia2.jpg" alt="Diseño mecánico 2">
+                <p>Planos técnicos</p>
+              </div>
+            </div>
+          </div>
+          
+          <h3>2. Selección y justificación de materiales</h3>
+          <p>¿Por qué se eligieron estos materiales?</p>
+          
+          <h4>Lista de Materiales:</h4>
+          <ul>
+            <li>Chasis: Barras de acero.</li>
+            <li>Piezas impresas: PLA.</li>
+            <li>Carrocería: Plástico.</li>
+          </ul>
+          
+          <p><strong>Barras de acero:</strong> fueron económicas, ya que usamos muchas para realizar pruebas. Fueron ideales por su rigidez y capacidad de resistencia.</p>
+          
+          <p><strong>PLA:</strong> Es el único material que permitía imprimir en las impresoras de la U. Resistir cargas sin deformarse. Quedamos satisfechos con el resultado, pudimos manipular y moldear piezas sometidas a calor.</p>
+          
+          <p><strong>Plástico:</strong> la carrocería principal y algunas piezas como la carcasa del motor fueron vinculadas.</p>
+          
+          <h4>Tabla comparativa:</h4>
+          <p>La combinación de estos materiales permitió lograr una estructura resistente, funcional y económica, aprovechando materiales reciclados y tecnologías de fabricación moderna como la impresión 3D.</p>
+          
+          <table>
+            <thead>
+              <tr>
+                <th>Material</th>
+                <th>Módulo de Elasticidad (aprox.)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Acero (Barras)</td>
+                <td>200 GPa</td>
+              </tr>
+              <tr>
+                <td>PLA</td>
+                <td>3.5 GPa</td>
+              </tr>
+              <tr>
+                <td>Plástico reciclado</td>
+                <td>1–2 GPa</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h3>3. Análisis de Esfuerzos y Resistencia</h3>
+          
+          <p><strong>Chasis (Barras de Acero):</strong> Es el componente principal sometido a tracción, compresión y flexión, especialmente al soportar el peso del vehículo y las cargas dinámicas durante el movimiento.</p>
+          <p>Posibles fallas: fisuras en las uniones soldadas.</p>
+          
+          <p><strong>Suspensión y Soportes (PLA):</strong> Estos elementos experimentan torsión y flexión moderada debido al movimiento de las ruedas y vibraciones del terreno.</p>
+          <p>Posibles fallas: rotura frágil o fatiga por repetición de cargas. El PLA ofrece una buena precisión dimensional y es suficiente para las cargas que necesitamos.</p>
+          
+          <p><strong>Carrocería (Plástico Reciclado):</strong> Actúa como una cubierta protectora frente a impactos menores y no soporta cargas estructurales significativas.</p>
+          <p>Posibles fallas: deformación o agrietamientos por golpes. Su uso favorece la sostenibilidad al reciclar materiales, reduciendo también costos y trabajo extra.</p>
+          
+          <h3>4. Fabricación y Ensamblaje</h3>
+          <p>Calidad de cortes: fuimos precisos con los cortes. Sin embargo, las uniones fueron algo bruscas y eso nos hizo perder precisión, pero no fue mucho, no tuvimos problemas a la hora de ensamblar.</p>
+          <p>Para los acabados, pulimos los puntos de soldadura para un acabado más limpio y estético. Esto nos permitió ensamblar todo sin complicaciones.</p>
+          
+          <h3>5. Funcionalidad y Prototipo</h3>
+          <p>Todas las pruebas terminaban siendo exitosas. Se presentaban algunas complicaciones, pero las fuimos solucionando.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section acknowledgment-section" id="agradecimientos">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Agradecimientos</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="acknowledgment-content">
+          <div class="acknowledgment-text">
+            <p>Con este proyecto logramos aplicar los conocimientos adquiridos en la ingeniería mecatrónica durante nuestro tiempo en la Universidad Mariana. Agradecemos a todos los profesores del programa por su compromiso, dedicación y acompañamiento en este proceso de desarrollo y mejora del proyecto.</p>
+            <p class="special-thanks">Especial agradecimiento al <strong>profesor Edison Viveros Villada (editronikx)</strong> por su ayuda y apoyo en el desarrollo del proyecto.</p>
+          </div>
+          <div class="youtube-channel">
+            <div class="channel-card">
+              <div class="channel-info">
+                <h4>Editronikx</h4>
+                <a href="https://www.youtube.com/@editronikx" class="youtube-button" target="_blank">
+                  <i class="fab fa-youtube"></i>
+                  Suscribirse al Canal
+                </a>
+              </div>
+              <div class="channel-image">
+                <img src="editronix.jpg" alt="Edison Viveros Villada">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="section conclusion-section" id="GraciasprofeGabi">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Agradecimiento a la profe Gabriela ponce</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content">
+          <div class="conclusion-content">
+            <p>Agradezco sinceramente a la profesora de dinamica Gabriela Ponce por su dedicación, paciencia y compromiso durante el semestre. Sus enseñanzas y orientación fueron fundamentales para mi aprendizaje y para desarrollar un mayor interés por la ingeniería Muchas gracias profe Gabi</p>
+  </main>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="universidad.png" alt="Universidad Mariana">
+          <img src="mecatronica.png" alt="Ingeniería Mecatrónica">
+          <p>Universidad Mariana<br>Ingeniería Mecatrónica</p>
+        </div>
+        <div class="footer-info">
+          <p>&copy; 2025 Proyecto MAVERICK. Todos los derechos reservados.</p>
+          <p>IX Feria de Proyectos Universidad Mariana</p>
+        </div>
+        <div class="footer-contact">
+          <button class="email-button" id="emailButton">
+            <i class="fas fa-envelope"></i>
+            Contactar al Equipo
+          </button>
+          <div class="email-list" id="emailList">
+            <div class="email-list-header">
+              <h4>Contacto</h4>
+              <button class="close-emails" id="closeEmails">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <ul class="emails">
+              <li>
+                <i class="fas fa-user"></i>
+                <div>
+                  <strong>Joan Sebastian Benavides Tobar</strong>
+                  <span>josebenvides123@umariana.edu.co</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-user"></i>
+                <div>
+                  <strong>Oscar David Benavides Vallejos</strong>
+                  <span>oscdbenavidesv124@gmail.com</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-user"></i>
+                <div>
+                  <strong>Jonathan Alejandro Coral Serna</strong>
+                  <span>jonacorals124@umariana.edu.co</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-user"></i>
+                <div>
+                  <strong>Diego German Lopez Montalvo</strong>
+                  <span>dieglopezm124@umariana.edu.co</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-user"></i>
+                <div>
+                  <strong>Felipe Alejandro Mora Diaz</strong>
+                  <span>felamorad124@umariana.edu.co</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-user"></i>
+                <div>
+                  <strong>Joseth Norbey Silva Diaz</strong>
+                  <span>josnsilvad124@umariana.edu.co</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <button class="scroll-to-top" id="scrollToTop">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
